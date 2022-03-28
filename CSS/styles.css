@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background-color: #e4f1fe;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 30px auto;
+  width: 80%;
+}
+
+p {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 60px;
+  color: #9ba6a5;
+}
+
+a {
+  text-decoration: none;
+  color: #73b1c1;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #a7bcb9;
+}
+
+.container-row {
+  width: 25%;
+  margin: 100px auto;
+  background-color: #fffdfb;
+  border-radius: 20px;
+  box-shadow: 5px 10px 20px #9ba6a5;
+}
+
+.qr-code {
+  width: 300px;
+  margin: 20px 10px 0;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 540px) {
+  .container-row {
+    width: 70%;
+    margin: 100px auto;
+  }
+
+  .qr-code {
+    width: 85%;
+    margin: 20px 10px 0;
+    border-radius: 20px;
+  }
+
+  h2 {
+    margin: 30px auto;
+    width: 85%;
+  }
+
+  p {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 920px) {
+  .container-row {
+    width: 50%;
+    margin: 150px auto;
+  }
+
+  .qr-code {
+    width: 85%;
+    margin: 20px 10px 0;
+    border-radius: 20px;
+  }
+
+  h2 {
+    margin: 30px auto;
+    width: 85%;
+  }
+
+  p {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1280px) {
+  h2 {
+    width: 80%;
+  }
+
+  p {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 60px;
+  }
+
+  .container-row {
+    width: 25%;
+    margin: 100px auto;
+  }
+
+  .qr-code {
+    width: 85%;
+  }
+}
